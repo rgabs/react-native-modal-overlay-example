@@ -44,7 +44,7 @@ export default class AwesomeProject extends Component {
   color="#841584"
 />
 
-        <Overlay visible={this.state.modalVisible} closeOnTouchOutside animationType="fade"
+        <Overlay visible={this.state.modalVisible} closeOnTouchOutside animationType="zoomIn"
             containerStyle={{backgroundColor: 'rgba(37, 8, 10, 0.78)'}} childrenWrapperStyle={{backgroundColor: '#eee'}} >
           <Text style={{fontWeight:'300', fontSize: 20}}>Some Overlay Heading</Text>
           <View style={{borderBottomWidth: 1, width: 100, paddingTop: 10}}></View>
